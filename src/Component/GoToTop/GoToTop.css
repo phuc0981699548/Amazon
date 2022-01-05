@@ -1,0 +1,17 @@
+.home-goToTop {
+    position: fixed;
+    z-index: 100;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px;
+    height: 22px !important;
+    background-color: #cd9042;
+    border-radius: 2px;
+    transition: transform 650ms;
+    
+}
+.home-goToTop:hover {
+    transform: scale(1.08);
+    opacity: 1;
+    cursor: pointer;
+}
